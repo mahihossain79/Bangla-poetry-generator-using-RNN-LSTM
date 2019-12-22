@@ -5,11 +5,11 @@ from keras.layers import Input, LSTM, Dense
 import numpy as np
 
 batch_size = 64
-epochs = 100  
+epochs = 60 
 latent_dim = 256
 num_samples = 10000  
 
-data_path = 'fra-eng/fra.txt'
+data_path = 'JibanAnanda Das.txt'
 
 
 input_texts = []
