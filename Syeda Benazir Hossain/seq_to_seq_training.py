@@ -4,8 +4,8 @@ from keras.models import Model
 from keras.layers import Input, LSTM, Dense
 import numpy as np
 
-batch_size = 64
-epochs = 60 
+batch_size = 128
+epochs = 20
 latent_dim = 256
 num_samples = 10000  
 
